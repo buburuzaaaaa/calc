@@ -1,4 +1,4 @@
-// This function clear all the values
+//  clears all the values
 function clearScreen() {
     document.getElementById("result").value = "";
 }
@@ -8,7 +8,7 @@ function display(value) {
     document.getElementById("result").value += value;
 }
  
-// This function evaluates the expression and returns result
+// This function returns result
 function calculate() {
     var p = document.getElementById("result").value;
     var q = eval(p);
